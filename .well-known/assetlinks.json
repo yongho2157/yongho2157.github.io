@@ -6,4 +6,20 @@
     "sha256_cert_fingerprints":
     ["99:82:83:0E:B4:65:85:B6:78:D2:AC:41:81:44:D4:71:C6:35:E6:01:F1:31:EE:A8:0A:75:3A:ED:4D:9C:02:D8"]
   }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://yongho2157.github.io"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.record.record",
+    "sha256_cert_fingerprints":
+    ["99:82:83:0E:B4:65:85:B6:78:D2:AC:41:81:44:D4:71:C6:35:E6:01:F1:31:EE:A8:0A:75:3A:ED:4D:9C:02:D8"]
+  }
 }]
