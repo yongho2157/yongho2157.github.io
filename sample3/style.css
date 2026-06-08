@@ -1,0 +1,29 @@
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  background:
+    linear-gradient(145deg, rgba(242, 191, 123, 0.18), transparent 34%),
+    linear-gradient(315deg, rgba(143, 216, 202, 0.16), transparent 36%),
+    #202229;
+}
+
+.sketch-stage {
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+}
+
+canvas {
+  display: block;
+  width: 100% !important;
+  height: 100% !important;
+}

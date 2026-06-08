@@ -4,11 +4,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Hello World</title>
+    <title>p5.js</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <h1>Hello World</h1>
+    <main class="page-shell">
+        <section class="work-grid" aria-label="과제 작품 2행 2열 목록">
+            <article class="work-card static-work">
+                <div class="work-meta">
+                    <a href="sample1/index.html" aria-label="과제 1 개별 페이지 열기">과제 1</a>
+                </div>
+                <iframe src="sample1/index.html" title="과제 1 정적 야경 작품" loading="eager"></iframe>
+            </article>
+
+            <article class="work-card motion-work">
+                <div class="work-meta">
+                    <a href="sample4/index.html" aria-label="과제 4 개별 페이지 열기">과제 4</a>
+                </div>
+                <iframe src="sample4/index.html" title="과제 4 동적 초상 작품" loading="eager"></iframe>
+            </article>
+
+            <article class="work-card static-work">
+                <div class="work-meta">
+                    <a href="sample2/index.html" aria-label="과제 2 개별 페이지 열기">과제 2</a>
+                </div>
+                <iframe src="sample2/index.html" title="과제 2 정적 초상 작품" loading="eager"></iframe>
+            </article>
+
+            <article class="work-card motion-work">
+                <div class="work-meta">
+                    <a href="sample3/index.html" aria-label="과제 3 개별 페이지 열기">과제 3</a>
+                </div>
+                <iframe src="sample3/index.html" title="과제 3 인터랙티브 초상 작품" loading="eager"></iframe>
+            </article>
+        </section>
+    </main>
 </body>
 
 </html>
